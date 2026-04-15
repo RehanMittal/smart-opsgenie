@@ -1,0 +1,22 @@
+# Secrets & credentials
+backend/.env
+backend/token.json
+backend/credentials.json
+frontend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/aegis.db
+backend/chroma_db/
+backend/gemini_files_cache.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
